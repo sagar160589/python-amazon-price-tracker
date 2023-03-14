@@ -1,1 +1,2 @@
 # python-amazon-price-tracker
+This project fouses on getting the price for a specific product by using requests module to get the html data and then using BeautifulSoup library to scrap the price of that product using lxml parser. This price is then compared with your target price and if it is less then it sends an email alert to you using smtplib library that the price is less and you can go ahead to buy the product.
